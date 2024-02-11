@@ -12,19 +12,30 @@ header, footer {
     padding: 1em;
 }
 
+/* Remove default margin, padding, and list style */
 nav ul {
-    list-style-type: none;
+    margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-align: center; /* Center align the nav items */
 }
 
+/* Display list items inline and add some padding */
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 10px; /* Adjust spacing between items as needed */
 }
 
+/* Style links for a cleaner look */
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    text-decoration: none; /* Removes underline from links */
+    color: #333; /* Change as per your color scheme */
+    font-weight: bold; /* Optional: makes text bold */
+}
+
+/* Optional: Add a hover effect to links */
+nav ul li a:hover {
+    color: #007BFF; /* Change hover color as needed */
 }
 
 main {
