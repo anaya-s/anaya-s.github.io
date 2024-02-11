@@ -5,11 +5,20 @@ body {
     background-color: #f0f0f0;
 }
 
-header, footer {
+footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background: #333; /* Example background color */
+    color: white; /* Adjust text color as needed */
 }
 
 /* Remove default margin, padding, and list style */
