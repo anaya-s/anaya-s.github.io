@@ -50,3 +50,18 @@ nav ul li a:hover {
 main {
     padding: 20px;
 }
+
+.neural-link div {
+    text-align: center; /* Center the content */
+}
+
+.neural-link img {
+    display: block; /* Make the image block-level to allow for proper centering */
+    margin: auto; /* Center the image horizontally */
+}
+
+.neural-link p {
+    margin: 0; /* Remove default paragraph margin */
+    color: #000; /* Set text color; adjust as needed */
+    font-size: 16px; /* Set the size of the text; adjust as needed */
+}
