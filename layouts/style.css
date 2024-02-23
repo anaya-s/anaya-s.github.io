@@ -66,6 +66,14 @@ main {
     font-size: 16px; /* Set the size of the text; adjust as needed */
 }
 
+.neural-link {
+    margin-bottom: 20px; /* Adds space below the home link */
+}
+
+.home-link {
+    margin-top: 20px; /* Adds space above the neural link */
+}
+
 .home-link div {
     text-align:left; /* Left the content */
 }
