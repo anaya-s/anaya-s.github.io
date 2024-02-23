@@ -57,7 +57,7 @@ main {
 
 .neural-link img {
     display: block; /* Make the image block-level to allow for proper centering */
-    margin: auto; /* Center the image horizontally */
+    margin: 0; /* Center the image horizontally */
 }
 
 .neural-link p {
@@ -72,7 +72,7 @@ main {
 
 .home-link img {
     display: block; /* Make the image block-level to allow for proper centering */
-    margin: auto; /* Center the image horizontally */
+    margin: 0; /* Center the image horizontally */
 }
 
 .home-link p {
